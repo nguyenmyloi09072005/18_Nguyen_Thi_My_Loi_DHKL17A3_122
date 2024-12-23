@@ -1,0 +1,16 @@
+# bị trùng lặp thẻ
+<?xml version="1.0" encoding ="UTF-8"?>
+<ShopOrder>
+    <Order>
+        <Customer>
+            <Title>Nguyễn Văn A</Title>
+            <Address>Đồng Văn-Lạng Sơn</Address>
+        </Customer>
+        <Product>
+            <Title>Áo khoác</Title>   # trùng thẻ
+            <Qua>20</Qua>
+            <Price>500.000 vnđ</Price>
+        </Product>
+    </Order>
+</ShopOrder>
+#cần sử dụng XML Namespace
